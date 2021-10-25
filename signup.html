@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <nav class="fixed-top">
+        <div class="wrap nav-wrap">
+            <a href="./intro.html" class="logo">
+                <img src="./resources/log.jpg" alt="logo">
+            </a>
+            <button class="mobile">
+                =
+            </button>
+            <div>
+                <ul class="web_menu">
+                    <li><a href="./index.html">홈으로</a></li>
+                    <li><a href="./login.html">로그인</a></li>
+                    <li><a href="./signup.html">회원가입</a></li>
+                    <li><a href="./map.html">찾아오시는 길</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <form class="basic-form">
+        <label>이름</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>아이디</label>
+        <br>
+        <input type="text">
+        <br>
+        <label>이메일</label>
+        <br>
+        <input type="email">
+        <div class="content_title">비밀번호</div>
+        <div class="content_content">
+            <input type="password" id="password_1" class="pw" placeholder="비밀번호">
+            <br><span>8~15자리의 영문, 숫자, 특수문자의 입력이 가능합니다.</span>
+        </div>
+
+        <div class="content_content">
+            <input type="password" id="password_2" class="pw" placeholder="비밀번호 확인">
+            <span id="alert-success" style="display: none;">비밀번호가 일치합니다.</span>
+            <span id="alert-danger" style="display: none; color: #d92742; font-weight: bold; ">비밀번호가 일치하지 않습니다.</span>
+        </div>
+        <br>
+        <button>회원가입</button>
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./main.js">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,269 @@
+body,
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    padding: .75em;
+    background-color: #a8a8a8;
+    color: #333333;
+    font-size: 0.8rem;
+    text-align: center;
+    font-style: bold;
+    height: auto;
+    
+}
+
+.full-width{
+    width: 100%;
+    height: 100%;
+}
+
+a.logo img{
+    width: 50px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.wrap{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0 3px;
+    padding: 8px 15px;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #333333;
+    transition: all 0.25s;
+}
+
+nav ul li a:hover {
+    color: blue;
+    padding-bottom: 3px;
+    border-bottom: 1px solid blue;
+}
+
+.wrap img {
+    left: auto;
+    width: 80px;
+    margin-top: 15px;
+}
+
+button.mobile{
+    display: none;
+}
+
+.web_menu{
+    padding-left: 450px;
+}
+
+
+
+/* ----------탑 네비게이션 바--------- */
+
+.default-nav div a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.default-nav div {
+    float: left;
+    padding: 10px;
+}
+
+.default-nav div a:hover {
+    color: rgb(108, 206, 173);
+}
+
+
+footer div {
+    display: inline-block;
+}
+
+.navbar_items{
+    position: relative;
+}
+.navbar_submenu {
+    position: absolute;
+    z-index: 100;
+    top: 30px;
+    left: 0px;
+}
+.navbar_submenu {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-top: none;
+    padding: 0;
+}
+.navbar_submenu li{
+    margin: 0;
+    width: 150px;
+    background-color: white;
+}
+
+.navbar_submenu li :hover {
+    border-bottom: none;
+}
+
+/* ------ 로그인, 회원가입 ------- */
+
+form.basic-form {
+    margin: 0 auto;
+    width: 70%;
+}
+
+form.basic-form label{
+    width: 120px;
+    display: inline-block;
+    padding: 0.5em 0;
+    vertical-align: top;
+}
+
+form.basic-form input{
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 7px;
+    width: 90%;
+    height: 20px;
+}
+
+form.basic-form
+
+form.basic-form.input:focus {
+    outline: none;
+    border: 1px solid red;
+}
+
+form.basic-form button {
+    padding: 20px
+}
+
+/* form.basic-form textarea {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 70%;
+    padding: 5px;
+    height: 200px;
+    margin: 10px 0;
+
+} */
+
+form.basic-form button {   
+    margin-left: 130px;
+    padding: 0.8em 3em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgb(87, 90, 255);
+    color: white;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+form.basic-from:active {
+    border-radius: 10px;
+    background-color: red;
+    outline: none;
+}
+
+/* ------ intro html-------- */
+
+.next a{
+    text-decoration: none;
+    color: rgb(85, 129, 224);
+    display: inline-block;
+    /* font-weight: bold; */
+    font-size: 1.5rem;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.next a p {
+    width: 100%;
+    text-align: center;
+}
+
+.next p:hover{
+    text-decoration: underline;
+}
+
+.back-image1,
+.back-image2,
+.back-image3,
+.back-image4{
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+}
+
+.back-image1 {
+    background-color: rgb(0, 0, 255);
+    color: whitesmoke;
+}
+
+.back-image2 {
+    background-color: whitesmoke;
+}
+
+.back-image3 {
+    background-color: whitesmoke;
+}
+
+
+/* ----- map ------- */
+.address {
+    padding: 20px;
+}
+
+.inner img {
+    width: 500px;
+}
+
+
+/* ---------- index ------- */
+.info_form{
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_btn img {
+    width: 300px;
+}
+.info_btn{
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.info img:hover {
+
+}
